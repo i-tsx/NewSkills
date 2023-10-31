@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&family=Tajawal&display=swap');
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, "Montserrat", "Tajawal", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: buttonface;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+:root {
+  --primary: #b88c34;
+  --secondary: #404454;
+}
+
+
+/* Apply styles to the entire table */
+table {
+  width: 100%;
+  /* Set the table width to 100% of its container */
+  border-collapse: collapse;
+  /* Remove the space between table cells */
+  font-family: Arial, sans-serif;
+  /* Set the font family for the table */
+}
+
+/* Style the table header (th) */
+th {
+  background-color: var(--primary);
+  /* Background color for header cells */
+  font-weight: bold;
+  /* Make the text in header cells bold */
+  text-align: left;
+  /* Align text to the left within header cells */
+  padding: 10px;
+  /* Add padding to header cells */
+  border: 1px solid #dddddd;
+  /* Add a border to header cells */
+  color: #ffffff
+}
+
+/* Style the table data cells (td) */
+td {
+  text-align: left;
+  /* Align text to the left within data cells */
+  padding: 10px;
+  /* Add padding to data cells */
+  border: 1px solid #dddddd;
+  /* Add a border to data cells */
+}
+
+/* Add alternate row background color for better readability */
+tr:nth-child(even) {
+  /* Background color for even rows */
+    background-color: #ebebeb;
+}
